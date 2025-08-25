@@ -1,0 +1,40 @@
+# Entorno virtual
+.venv/
+venv/
+ENV/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Simulación con cocotb / Verilator
+sim_build/
+obj_dir/
+*.vcd
+*.fst
+*.vpd
+*.wlf
+*.log
+
+# GTKWave configs
+*.gtkw
+
+# Archivos temporales de Make
+*.d
+*.o
+
+# Coverage / pytest
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.junit/
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
